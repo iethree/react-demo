@@ -28,6 +28,14 @@
   /* #endregion  /**======== Primary Color =========== */
 }
 
+body {
+  @apply bg-gray-800 text-gray-200;
+}
+
+input {
+  @apply w-64 border-b bg-transparent outline-none focus:border-b-2;
+}
+
 @layer base {
   /* inter var - latin */
   @font-face {
